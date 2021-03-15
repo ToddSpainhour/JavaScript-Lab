@@ -10,7 +10,7 @@ Given [34, -345, -1, 100] your solution will return -345
 
 class SmallestIntegerFinder {
   findSmallestInt(arrayOfNumbers) {
-    let minimumNumber = Math.min(...arrayOfNumbers);
-    return minimumNumber;
+    let smallestNumberInArray = Math.min(...arrayOfNumbers);
+    return smallestNumberInArray;
   }
 }
