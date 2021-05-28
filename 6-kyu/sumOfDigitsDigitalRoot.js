@@ -19,7 +19,6 @@ const digital_root = (number) => {
   
   const sum = arrayOfNumbers.reduce((a,b) => a + b) 
   
- 
   if (sum < 10) {
     return sum
   } else {
